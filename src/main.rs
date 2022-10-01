@@ -1,3 +1,5 @@
+pub mod add;
+
 #[allow(unused_variables)]
 #[allow(arithmetic_overflow)]
 // lecture-2
@@ -5,7 +7,8 @@
 fn main() {
     let s = String::new();
     let str = s.as_str();
-    let ui8 = 0u8;
+    let mut ui8 = 0u8;
+    add::add1(&mut ui8);
     let ui64: u64 = 0;
     let b = false;
     let mut vec: Vec<i128> = vec![];
