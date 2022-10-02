@@ -1,4 +1,4 @@
 # mtuci-rs-course
 
-Matreials for lecture-
+Matreials for lecture-3
 
